@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CodeRipplePHP - Complete guide for PHP Web Development</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Bootstrap Documentation Template For Software Developers"
+    />
+    <meta name="author" content="Janak Raj Gaha" />
+    <link rel="shortcut icon" href="crp.ico" />
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FontAwesome JS-->
+    <script defer src="assets/fontawesome/js/all.min.js"></script>
+
+    <!-- Plugins CSS -->
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/plugins/simplelightbox/simple-lightbox.min.css"
+    />
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme.css" />
+  </head>
+
+  <body class="docs-page">
+    <header class="header fixed-top">
+      <div class="branding docs-branding">
+        <div class="container-fluid position-relative py-2">
+          <div class="docs-logo-wrapper">
+            <button
+              id="docs-sidebar-toggler"
+              class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none"
+              type="button"
+            >
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <div class="site-logo"><a class="navbar-brand" href="index.html"><img class="logo-icon me-2" src="assets/images/crp.png" alt="logo" width="40px" height="40px"><span class="logo-text">CodeRipple<span class="text-alt">PHP</span></span></a></div>    
+          </div>
+          <!--//docs-logo-wrapper-->
+          <div
+            class="docs-top-utilities d-flex justify-content-end align-items-center"
+          >
+            <div class="top-search-box d-none d-lg-flex">
+              <form class="search-form">
+                <input
+                  type="text"
+                  placeholder="Search the docs..."
+                  name="search"
+                  class="form-control search-input"
+                />
+                <button type="submit" class="btn search-btn" value="Search">
+                  <i class="fas fa-search"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+          <!--//docs-top-utilities-->
+        </div>
+        <!--//container-->
+      </div>
+      <!--//branding-->
+    </header>
+    <!--//header-->
+
+    <div class="docs-wrapper">
+      <div id="docs-sidebar" class="docs-sidebar">
+        <div class="top-search-box d-lg-none p-3">
+          <form class="search-form">
+            <input
+              type="text"
+              placeholder="Search the docs..."
+              name="search"
+              class="form-control search-input"
+            />
+            <button type="submit" class="btn search-btn" value="Search">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+        </div>
+        <nav id="docs-nav" class="docs-nav navbar">
+          <ul class="section-items list-unstyled nav flex-column pb-3">
+            <li class="nav-item section-title">
+              <a class="nav-link scrollto active" href="#section-1"
+                ><span class="theme-icon-holder me-2"
+                  ><i class="fas fa-map-signs"></i></span
+                >Introduction</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollto" href="#item-1-1">What is PHP ?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollto" href="#item-1-2"
+                >Why Choose PHP for Web Development ?</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollto" href="#item-1-3"
+                >How PHP Works – The Lifecycle</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollto" href="#item-1-4"
+                >Real-world Use Cases of PHP</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollto" href="#item-1-5">Basic PHP Setup</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollto" href="#item-1-6"
+                >Mixing PHP with HTML</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollto" href="#item-1-7">Basic PHP Tags</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollto" href="#item-1-8"
+                >What You’ll Learn Next ?</a
+              >
+            </li>
+            <li class="nav-item section-title mt-3">
+              <a class="nav-link scrollto" href="#section-2"
+                ><span class="theme-icon-holder me-2"
+                  ><i class="fas fa-arrow-down"></i></span
+                >Getting Started</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollto" href="#item-2-1">1. Setting Up Your Environment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollto" href="#item-2-2">2. Writing Your First PHP Script</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollto" href="#item-2-3">3. PHP in HTML Pages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollto" href="#item-2-4">4. Basic PHP Syntax Rules</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollto" href="#item-2-5">5. Running PHP via Command Line (Optional)</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollto" href="#item-2-6">6. Common Setup Issues</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollto" href="#item-2-7">7. Exploring phpinfo()</a>
+            </li>
+            <li class="nav-item section-title mt-3">
+              <a class="nav-link scrollto" href="#section-3"
+                ><span class="theme-icon-holder me-2"
+                  ><i class="fas fa-box"></i></span
+                >Basics & Syntax</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollto" href="#item-3-1">1. PHP Syntax Overview</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollto" href="#item-3-2">2. Comments in PHP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollto" href="#item-3-3">3. Variables in PHP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollto" href="#item-3-4">4. Data Types in PHP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollto" href="#item-3-5">5. Constants</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollto" href="#item-3-6">6. Strings in PHP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollto" href="#item-3-7">7. Operators in PHP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollto" href="#item-3-8">8. Conditional Statements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollto" href="#item-3-9">9. Loops in PHP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollto" href="#item-3-10">10. Functions in PHP</a>
+            </li>
+          </ul>
+        </nav>
+        <!--//docs-nav-->
+      </div>
+      <!--//docs-sidebar-->
+      <div class="docs-content">
+        <div class="container">
+          <article class="docs-article" id="section-1">
+            <header class="docs-header">
+              <h1 class="docs-heading">
+                Introduction
+                <span class="docs-time">Last updated: 3 days ago</span>
+              </h1>
+              <section class="docs-intro">
+                <p>
+                  Section intro goes here. Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit. Quisque finibus condimentum nisl
+                  id vulputate. Praesent aliquet varius eros interdum suscipit.
+                  Donec eu purus sed nibh convallis bibendum quis vitae turpis.
+                  Duis vestibulum diam lorem, vitae dapibus nibh facilisis a.
+                  Fusce in malesuada odio.
+                </p>
+              </section>
+              <!--//docs-intro-->
+            </header>
+            <section class="docs-section" id="item-1-1">
+              <h2 class="section-heading">What is PHP ?</h2>
+              <p>
+                <strong>PHP</strong> (Hypertext Preprocessor) is a
+                <b>server-side scripting language</b> designed specifically for
+                web development. It is widely used to build dynamic websites and
+                web applications by embedding scripts within HTML pages.
+              </p>
+              <ul>
+                <li>PHP code is executed on the server.</li>
+                <li>The result is sent to the browser as plain HTML.</li>
+                <li>
+                  It can interact with databases, handle forms, manage sessions,
+                  and more.
+                </li>
+              </ul>
+              <h5>Example:</h5>
+              <div class="docs-code-block">
+                <!-- ** Embed github code starts ** -->
+                <script src="https://gist.github.com/GahaBitCraft/0c4123c0f576be2b70ac030e6059d630.js"></script>
+                <!-- ** Embed github code ends ** -->
+              </div>
+              <h5>Output:</h5>
+              <div class="docs-code-block">
+                <pre class="shadow-lg rounded"><code class="json hljs">
+ Hello, World!
+</code></pre>
+              </div>
+            </section>
+            <!--//section-->
+
+            <section class="docs-section" id="item-1-2">
+              <h2 class="section-heading">
+                Why Choose PHP for Web Development ?
+              </h2>
+              <p>Here are some reasons why PHP remains a popular choice:</p>
+              <ol>
+                <li>
+                  <strong>✅ Open Source:</strong> Free to use with a large
+                  community.
+                </li>
+                <li>
+                  <strong>✅ Cross-Platform:</strong> Runs on Windows, Linux,
+                  macOS.
+                </li>
+                <li>
+                  <strong>✅ Easy to Learn:</strong> Simple syntax for
+                  beginners.
+                </li>
+                <li>
+                  <strong>✅ Integrated with HTML:</strong> Can be embedded
+                  directly.
+                </li>
+                <li>
+                  <strong>✅ Database Friendly:</strong> Works well with MySQL,
+                  PostgreSQL, etc.
+                </li>
+                <li>
+                  <strong>✅ Framework Support:</strong> Supports Laravel,
+                  Symfony, CodeIgniter, and more.
+                </li>
+                <li>
+                  <strong>✅ Rich Library Support:</strong> Built-in and
+                  third-party libraries for almost every need.
+                </li>
+              </ol>
+            </section>
+            <!--//section-->
+
+            <section class="docs-section" id="item-1-3">
+              <h2 class="section-heading">How PHP Works – The Lifecycle</h2>
+              <ol>
+                <li>
+                  A user requests a <code>.php</code> page (e.g.,
+                  <code>index.php</code>) via browser.
+                </li>
+                <li>
+                  The server (e.g., Apache, Nginx) passes the request to the PHP
+                  engine.
+                </li>
+                <li>PHP processes the script on the server.</li>
+                <li>
+                  The result (usually HTML) is sent to the client’s browser.
+                </li>
+              </ol>
+
+              <p>
+                <strong>Note:</strong> The client never sees the actual PHP code
+                – only the final HTML.
+              </p>
+            </section>
+            <!--//section-->
+
+            <section class="docs-section" id="item-1-4">
+              <h2 class="section-heading">Real-world Use Cases of PHP</h2>
+              <p>
+                PHP is behind some of the most visited websites in the world:
+              </p>
+
+              <ul>
+                <li>
+                  <strong>Facebook:</strong> Social media platform (originally
+                  built with PHP).
+                </li>
+                <li>
+                  <strong>WordPress:</strong> Content management system (CMS),
+                  (the world's most popular CMS, built with PHP).
+                </li>
+                <li><strong>Wikipedia:</strong> Online encyclopedia.</li>
+                <li>
+                  <strong>Slack:</strong> Team collaboration tool (uses PHP in
+                  parts of its backend).
+                </li>
+                <li><strong>MailChimp:</strong> Email marketing service.</li>
+              </ul>
+              <p>You can use PHP to:</p>
+              <ul>
+                <li>Build personal blogs or portfolios</li>
+                <li>Develop e-commerce platforms</li>
+                <li>Create CMS, CRMs, or ERPs</li>
+                <li>Handle API backends</li>
+                <li>Develop RESTful web services</li>
+                <li>Build scalable SaaS applications</li>
+              </ul>
+            </section>
+            <!--//section-->
+            <section class="docs-section" id="item-1-5">
+              <h2 class="section-heading">Basic PHP Setup</h2>
+              <p>
+                To start writing and running PHP, you need a local server
+                environment like:
+              </p>
+              <ul>
+                <li>
+                  <strong>XAMPP:</strong> Cross-platform, easy to install.<i
+                    >(Cross-platform)</i
+                  >
+                </li>
+                <li>
+                  <strong>WAMP:</strong> Windows-specific, includes Apache,
+                  MySQL, and PHP.<i>(Windows)</i>
+                </li>
+                <li>
+                  <strong>MAMP:</strong> Mac-specific, includes Apache, MySQL,
+                  and PHP.<i>(macOS)</i>
+                </li>
+                <li>
+                  <strong>Laragon:</strong> Lightweight and portable server
+                  environment.<i>(lightweight for Windows)</i>
+                </li>
+                <li>
+                  <strong>Local by Flywheel:</strong> Designed for WordPress
+                  development.
+                </li>
+                <li>
+                  <strong>Docker:</strong> Containerized environment for PHP
+                  applications.<i>(for containerized PHP setup)</i>
+                </li>
+              </ul>
+              <h5>First Script:</h5>
+              <p>
+                Save this as <code>hello.php</code> in your server root
+                directory:
+              </p>
+              <div class="docs-code-block">
+                <!-- ** Embed github code starts ** -->
+                <script src="https://gist.github.com/GahaBitCraft/d1bf29a74f7ba490e395b6f63bc30701.js"></script>
+                <!-- ** Embed github code ends ** -->
+              </div>
+              <h5>Open your browser and navigate to:</h5>
+              <code>http://localhost/hello.php</code>
+            </section>
+            <!--//section-->
+            <section class="docs-section" id="item-1-6">
+              <h2 class="section-heading">Mixing PHP with HTML</h2>
+              <div class="docs-code-block">
+                <script src="https://gist.github.com/GahaBitCraft/5af7cab2a9c8db3bbe087f773af671af.js"></script>
+              </div>
+            </section>
+            <section class="docs-section" id="item-1-7">
+              <h2 class="section-heading">Basic PHP Tags</h2>
+              <p>There are multiple ways to open/close PHP blocks:</p>
+
+              <ol>
+                <li><strong>Standard:</strong><code>&lt;?php ... ?></code></li>
+                <li>
+                  <strong>Short tags (not recommended):</strong
+                  ><code>&lt;? ... ?></code>
+                </li>
+                <li>
+                  <strong>ASP-style tags (deprecated):</strong
+                  ><code>&lt;% ... %></code>
+                </li>
+              </ol>
+              <p>Always use the standard tag:</p>
+              <p>✅<code>&lt;?php ... ?></code></p>
+            </section>
+            <section class="docs-section" id="item-1-8">
+              <h2 class="section-heading">What You'll Learn Next ?</h2>
+              <p>In this PHP Web Development journey, you’ll go through:</p>
+              <ol>
+                <li>PHP syntax and logic</li>
+                <li>Form handling and user input</li>
+                <li>Database operations</li>
+                <li>Authentication systems</li>
+                <li>OOP in PHP</li>
+                <li>Building real applications</li>
+                <li>Working with APIs and JSON</li>
+                <li>Deploying your app online</li>
+              </ol>
+              <p>
+                Ready to code? Let’s begin with setting up your environment in
+                the next chapter.
+              </p>
+            </section>
+            <!--//section-->
+          </article>
+
+          <article class="docs-article" id="section-2">
+            <header class="docs-header">
+              <h1 class="docs-heading">Getting Started with PHP</h1>
+              <section class="docs-intro"></section>
+              <!--//docs-intro-->
+            </header>
+            <section class="docs-section" id="item-2-1">
+              <h2 class="section-heading">1. Setting Up Your Environment</h2>
+              <p>
+                Before you start writing PHP code, you need a local server
+                environment that supports PHP.
+              </p>
+              <h5>🔧 Recommended Options:</h5>
+              <div class="table-responsive my-4">
+                <table class="table table-bordered">
+                  <tbody>
+                    <tr>
+                      <th class="theme-bg-light">Tool</th>
+                      <th class="theme-bg-light">Platform</th>
+                      <th class="theme-bg-light">Description</th>
+                    </tr>
+                    <tr>
+                      <td><strong>XAMPP</strong></td>
+                      <td>Windows/Linux/macOS</td>
+                      <td>Comes with Apache, MySQL, PHP, and phpMyAdmin</td>
+                    </tr>
+                    <tr>
+                      <td><strong>WAMP</strong></td>
+                      <td>Windows</td>
+                      <td>Windows-specific stack</td>
+                    </tr>
+                    <tr>
+                      <td><strong>MAMP</strong></td>
+                      <td>macOS/Windows</td>
+                      <td>Easy-to-use stack for Mac & Windows</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Laragon</strong></td>
+                      <td>Windows</td>
+                      <td>Lightweight, fast, and modern</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Docker</strong></td>
+                      <td>All Platforms</td>
+                      <td>Create a custom container-based environment</td>
+                    </tr>
+                    <tr>
+                      <td><strong>VS Code + PHP Plugin</strong></td>
+                      <td>All</td>
+                      <td>For writing and debugging PHP code</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--//table-responsive-->
+              <h5><strong>📦 Install XAMPP (Example)</strong></h5>
+              <ol>
+                <li>
+                  Download XAMPP: <code>https://www.apachefriends.org</code>
+                </li>
+                <li>Install and launch XAMPP Control Panel.</li>
+                <li>
+                  Start <strong>Apache</strong> and <strong>MySQL</strong>.
+                </li>
+                <li>
+                  Go to <code>http://localhost</code> in your browser -- you
+                  should see the XAMPP welcome page.
+                </li>
+              </ol>
+            </section>
+            <!--//section-->
+
+            <section class="docs-section" id="item-2-2">
+              <h2 class="section-heading">2. Writing Your First PHP Script</h2>
+              <p>
+                PHP files typically have a <code>.php</code> extension. Let’s
+                write the classic "Hello World" example.
+              </p>
+              <h5><strong>✍️ Code:</strong></h5>
+              <div class="docs-code-block">
+                <script src="https://gist.github.com/GahaBitCraft/bcb609e17171dd19fe3338f53be135d8.js"></script>
+              </div>
+              <h5><strong>📂 Save As:</strong></h5>
+              <p>
+                <code>hello.php</code> inside your server's htdocs directory
+                (e.g., <code>C:\xampp\htdocs\hello.php</code>)
+              </p>
+              <h5><strong>🌐 View in Browser:</strong></h5>
+              <p>Open <code>http://localhost/hello.php</code></p>
+              <p>✔ You should see:</p>
+              <code>Hello, PHP World!</code>
+            </section>
+            <!--//section-->
+
+            <section class="docs-section" id="item-2-3">
+              <h2 class="section-heading">3. PHP in HTML Pages</h2>
+              <p>You can embed PHP inside HTML seamlessly:</p>
+              <div class="docs-code-block">
+                <script src="https://gist.github.com/GahaBitCraft/2892bdf4558b75988082f9aa12c5f03a.js"></script>
+              </div>
+              <h5><strong>🧠 Tip:</strong></h5>
+              <p>
+                PHP code must always be inside
+                <code>&lt;?php ... ?></code> tags.
+              </p>
+            </section>
+            <section class="docs-section" id="item-2-4">
+              <h2 class="section-heading">4. Basic PHP Syntax Rules</h2>
+              <div class="table-responsive my-4">
+                <table class="table table-bordered">
+                  <tbody>
+                    <tr>
+                      <th>Feature</th>
+                      <th>Example</th>
+                    </tr>
+                    <tr>
+                      <td>End statements with semicolons</td>
+                      <td><code>echo "Hello";</code></td>
+                    </tr>
+                    <tr>
+                      <td>Comments (single-line)</td>
+                      <td><code>// This is a comment</code></td>
+                    </tr>
+                    <tr>
+                      <td>Comments (multi-line)</td>
+                      <td><code>/* This is a multi-line comment */</code></td>
+                    </tr>
+                    <tr>
+                      <td>Variables start with <code>$</code></td>
+                      <td><code>$name = "John";</code></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--//table-responsive-->
+            </section>
+            <section class="docs-section" id="item-2-5">
+              <h2 class="section-heading">
+                5. Running PHP via Command Line (Optional)
+              </h2>
+              <p>You can also run PHP scripts via terminal/command prompt:</p>
+              <div class="docs-code-block">
+                <span>bash</span>
+                <code class="hljs"> php hello.php </code>
+              </div>
+              <p>This is useful for scripting, automation, and testing.</p>
+            </section>
+            <section class="docs-section" id="item-2-6">
+              <h2 class="section-heading">6. Common Setup Issues</h2>
+              <div class="table-responsive my-4">
+                <table class="table table-bordered">
+                  <tbody>
+                    <tr>
+                      <th>Problem</th>
+                      <th>Solution</th>
+                    </tr>
+                    <tr>
+                      <td>File shows code instead of output</td>
+                      <td>
+                        PHP server is not running, or file not in correct folder
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><code>php</code> command not recognized</td>
+                      <td>Add PHP path to system’s environment variables</td>
+                    </tr>
+                    <tr>
+                      <td>Error: undefined function</td>
+                      <td>Check for typos or missing PHP extensions</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--//table-responsive-->
+            </section>
+            <section class="docs-section" id="item-2-7">
+              <h2 class="section-heading">7. Exploring phpinfo()</h2>
+              <p>This function displays details about your PHP setup.</p>
+              <h5><strong>📜 Code:</strong></h5>
+              <div class="docs-code-block">
+                <script src="https://gist.github.com/GahaBitCraft/02da70c02956f91590558bf37a46ed90.js"></script>
+              </div>
+              <h5><strong>🔍 View in Browser:</strong></h5>
+              <p>Visit <code>http://localhost/phpinfo.php</code></p>
+              <p>
+                You’ll see PHP version, extensions, server info, configuration,
+                and more.
+              </p>
+            </section>
+            <section class="docs-section" id="item-2-8">
+              <h2 class="section-heading">✅ Summary</h2>
+              <p>You’ve now:</p>
+              <ul>
+                <li>Installed a PHP-ready server environment</li>
+                <li>Written and executed your first PHP script</li>
+                <li>Embedded PHP in HTML</li>
+                <li>Learned basic syntax and file handling</li>
+                <li>Explored command line and server settings</li>
+              </ul>
+            </section>
+            <!--//section-->
+          </article>
+          <!--//docs-article-->
+
+          <article class="docs-article" id="section-3">
+            <header class="docs-header">
+              <h1 class="docs-heading">PHP Basics & Syntax</h1>
+              <section class="docs-intro">
+                <p>
+                  This section covers the fundamental concepts of PHP syntax,
+                  data types, operators, and other key PHP basics.
+                </p>
+              </section>
+              <!--//docs-intro-->
+            </header>
+            <section class="docs-section" id="item-3-1">
+              <h2 class="section-heading">1. PHP Syntax Overview</h2>
+              <p>
+                PHP code is embedded in an HTML file between
+                <code>&lt;?php</code> and <code>?></code> tags. This tells the
+                server to interpret the code as PHP.
+              </p>
+              <div class="docs-code-block">
+                <script src="https://gist.github.com/GahaBitCraft/7f97109210366476eac942266b6ab1df.js"></script>
+              </div>
+              <h4>Key Points:</h4>
+              <ul>
+                <li>
+                  PHP code must be inside <code>&lt;?php ... ?></code> tags.
+                </li>
+                <li>PHP statements end with a semicolon (<code>;</code>).</li>
+                <li>
+                  PHP is <strong>case-sensitive</strong>, so
+                  <code>$name</code> and <code>$Name</code> are different
+                  variables.
+                </li>
+              </ul>
+            </section>
+            <!--//section-->
+
+            <section class="docs-section" id="item-3-2">
+              <h2 class="section-heading">2. Comments in PHP</h2>
+              <p>PHP supports two types of comments:</p>
+              <ul>
+                <li>
+                  <strong>Single-line comment</strong> using <code>//</code> or
+                  <code>#</code>
+                </li>
+                <li>
+                  <strong>Multi-line comment</strong> using
+                  <code>/* ... */</code>
+                </li>
+              </ul>
+              <div class="docs-code-block">
+                <script src="https://gist.github.com/GahaBitCraft/66a8a9ad9750abcf107108cab7d71bd5.js"></script>
+              </div>
+              <h5>Why Use Comments?</h5>
+              <ul>
+                <li>
+                  <strong>Documentation:</strong> Explains what the code is
+                  doing.
+                </li>
+                <li>
+                  <strong>Temporarily disabling code:</strong> Useful for
+                  debugging.
+                </li>
+              </ul>
+            </section>
+            <!--//section-->
+
+            <section class="docs-section" id="item-3-3">
+              <h2 class="section-heading">3. Variables in PHP</h2>
+              <p>
+                A <strong>variable</strong> in PHP starts with the dollar sign
+                <code>$</code> followed by the variable name. Variables are
+                dynamically typed, meaning their type is determined at runtime.
+              </p>
+              <div class="docs-code-block">
+                <script src="https://gist.github.com/GahaBitCraft/705aed7e257ded68a64628541d23d675.js"></script>
+              </div>
+              <h5>Rules:</h5>
+              <ul>
+                <li>
+                  Variables must start with a letter or underscore
+                  (<code>$name</code>, <code>$user_name</code>).
+                </li>
+                <li>
+                  Variable names are <strong>case-sensitive</strong> (<code
+                    >$name</code
+                  >
+                  is different from <code>$Name</code>).
+                </li>
+              </ul>
+            </section>
+
+            <section class="docs-section" id="item-3-4">
+              <h2 class="section-heading">4. Data Types in PHP</h2>
+              <p>PHP supports several data types, including:</p>
+              <ul>
+                <li>
+                  <strong>String:</strong> A sequence of characters, enclosed in
+                  quotes (<code>" "</code> or <code>' '</code>).
+                </li>
+                <li>
+                  <strong>Integer:</strong> A whole number (e.g.,
+                  <code>42</code>).
+                </li>
+                <li>
+                  <strong>Float:</strong> A number with a decimal point (e.g.,
+                  <code>3.14</code>).
+                </li>
+                <li>
+                  <strong>Boolean:</strong> Represents <code>true</code> or
+                  <code>false</code>.
+                </li>
+                <li>
+                  <strong>Array:</strong> An ordered collection of values.
+                </li>
+                <li><strong>Object:</strong> An instance of a class.</li>
+                <li><strong>NULL:</strong> Represents no value.</li>
+                <li>
+                  <strong>Resource:</strong> A reference to an external resource
+                  (e.g., a file or database connection).
+                </li>
+              </ul>
+              <h5>Examples:</h5>
+              <div class="docs-code-block">
+                <script src="https://gist.github.com/GahaBitCraft/fce8381e07fff06dac0cada8211b39b9.js"></script>
+              </div>
+            </section>
+            <section class="docs-section" id="item-3-5">
+              <h2 class="section-heading">5. Constants</h2>
+              <p>
+                Constants are identifiers for simple values that cannot be
+                changed during the execution of a script. They are defined using
+                the <code>define()</code> function.
+              </p>
+              <div class="docs-code-block">
+                <script src="https://gist.github.com/GahaBitCraft/db27e887dfd091cd2fdc7a9b221a7342.js"></script>
+              </div>
+              <h5>Key Points</h5>
+              <ul>
+                <li>Constants do not start with a <code>$</code> symbol.</li>
+                <li>
+                  Constants are <strong>case-sensitive</strong> by default
+                  (e.g., <code>SITE_NAME</code> is different from
+                  <code>site_name</code>).
+                </li>
+              </ul>
+            </section>
+            <section class="docs-section" id="item-3-6">
+              <h2 class="section-heading">6. Strings in PHP</h2>
+              <p>
+                Strings are sequences of characters. They can be defined using
+                single or double quotes.
+              </p>
+              <h5><strong>Single Quotes (<code>'</code>):</strong></h5>
+              <ul>
+                <li>Does not parse variables inside the string.</li>
+                <li>
+                  Escaping special characters is required for certain
+                  characters.
+                </li>
+              </ul>
+              <div class="docs-code-block">
+                <pre>
+					<code class="hljs language-php">
+$name = 'Alice';
+$text = 'Hello, $name'; // Output will be: Hello, $name
+					</code>
+				</pre>
+              </div>
+			  <h5><strong>Double Quotes (<code>"</code>):</strong></h5>
+              <ul>
+                <li>Parses variables inside the string.</li>
+                <li>
+					Allows escape sequences like <code>\n</code> (new line) or <code>\t</code> (tab).
+                </li>
+              </ul>
+              <div class="docs-code-block">
+                <pre>
+					<code class="hljs language-php">
+$name = "Alice";
+$text = "Hello, $name";  // Output will be: Hello, Alice						
+					</code>
+				</pre>
+              </div>
+            </section>
+			<section class="docs-section" id="item-3-7">
+				<h2 class="section-heading">7. Operators in PHP</h2>
+				<p>
+					PHP supports a wide variety of operators.
+				</p>
+				<h5><strong>Arithmetic Operators:</strong></h5>
+				<p>Used for basic math operations:</p>
+				<div class="docs-code-block">
+					<script src="https://gist.github.com/GahaBitCraft/5f9e634429f4f168f379a38f0380951e.js"></script>
+				</div>
+				<h5><strong>Assignment Operators:</strong></h5>
+				<p>Used to assign values to variables:</p>
+				<div class="docs-code-block">
+					<script src="https://gist.github.com/GahaBitCraft/22233452e9903d59b378582ea745d434.js"></script>
+				</div>
+				<h5><strong>Comparisional / Relational Operators:</strong></h5>
+				<p>Used to compare two values:</p>
+				<div class="docs-code-block">
+					<script src="https://gist.github.com/GahaBitCraft/3c9931ca079ed107ac5d106847313040.js"></script>
+				</div>
+				<h5><strong>Logical Operators:</strong></h5>
+				<p>Used to combine multiple conditions:</p>
+				<div class="docs-code-block">
+					<script src="https://gist.github.com/GahaBitCraft/55152d7d5290cad298855c089df05b60.js"></script>
+				</div>
+			  </section>
+			  <section class="docs-section" id="item-3-8">
+				<h2 class="section-heading">8. Conditional Statements</h2>
+				<p>
+					Conditional statements allow you to make decisions in your code based on certain conditions.
+				</p>
+				<h5><strong><code>if</code> Statement:</strong></h5>
+				<div class="docs-code-block">
+					<script src="https://gist.github.com/GahaBitCraft/cf634555770d465a63cd61968e0b3863.js"></script>
+				</div>
+				<h5><strong><code>if</code> and <code>else</code>:</strong></h5>
+				<div class="docs-code-block">
+					<script src="https://gist.github.com/GahaBitCraft/a4507d7d797b2ced93ced90ad304a514.js"></script>
+				</div>
+				<h5><strong><code>else</code> and <code>elseif</code>:</strong></h5>
+				<div class="docs-code-block">
+					<script src="https://gist.github.com/GahaBitCraft/0d88cb74ebebeba41c121ba0b72cd76c.js"></script>
+				</div>
+				<h5><strong><code>switch</code> Statement:</strong></h5>
+				<div class="docs-code-block">
+					<script src="https://gist.github.com/GahaBitCraft/70846c1d5a4b2bafa9c273b1a395cd4a.js"></script>
+				</div>
+			  </section>
+			  <section class="docs-section" id="item-3-9">
+				<h2 class="section-heading">9. Loops in PHP</h2>
+				<p>
+					Loops are used to execute a block of code repeatedly.
+				</p>
+				<h5><strong><code>while</code> Loop:</strong></h5>
+				<div class="docs-code-block">
+					<script src="https://gist.github.com/GahaBitCraft/3be546e1e2c162d939df32bf770f7896.js"></script>
+				</div>
+				<h5><strong><code>for</code> Loop:</strong></h5>
+				<div class="docs-code-block">
+					<script src="https://gist.github.com/GahaBitCraft/5ebf39928075d2afa39b3e922d70a2b0.js"></script>
+				</div>
+				<h5><strong><code>foreach</code> Loop (for arrays):</strong></h5>
+				<div class="docs-code-block">
+					<script src="https://gist.github.com/GahaBitCraft/b924b5a827149a7d51c0ff1acb124aaf.js"></script>
+				</div>
+			  </section>
+			  <section class="docs-section" id="item-3-10">
+				<h2 class="section-heading">10. Functions in PHP</h2>
+				<p>
+					Functions are blocks of reusable code that can be called with a specific name.
+				</p>
+				<h5><strong>Defining a Function:</strong></h5>
+				<div class="docs-code-block">
+					<pre>
+						<code class="language-php">
+function greet($name) {
+	return "Hello, $name!";
+}
+							
+echo greet("Alice");  // Output: Hello, Alice!							
+						</code>
+					</pre>
+				</div>
+				<h5><strong>Default Parameter Values:</strong></h5>
+				<div class="docs-code-block">
+					<pre>
+						<code class="language-php">
+function greet($name = "Guest") {
+	return "Hello, $name!";
+}
+							
+echo greet();  // Output: Hello, Guest!							
+						</code>
+					</pre>
+				</div>
+			  </section>
+			  <section class="docs-section" id="item-3-11">
+				<h2 class="section-heading">✅ Summary</h2>
+				<p>
+					In this section, you've learned:
+				</p>
+				<ul>
+					<li>The basic structure of PHP syntax.</li>
+					<li>How to write and use variables.</li>
+					<li>Understanding data types and constants.</li>
+					<li>How to work with strings.</li>
+					<li>Operators for arithmetic, assignment, comparison, and logical operations.</li>
+					<li>Conditional statements for decision-making.</li>
+					<li>Loops for repeating tasks.</li>
+					<li>How to define and use functions.</li>
+				</ul>
+				<p>This knowledge forms the foundation for writing more complex PHP applications.</p>
+			  </section>
+            <!--//section-->
+          </article>
+          <!--//docs-article-->
+
+          
+          <footer class="footer">
+            <div class="container text-center py-5">
+              <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+              <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="" target="_blank">GahaBitCraft</a> for developers</small>
+              
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <!--//docs-wrapper-->
+
+    <!-- Javascript -->
+    <script src="assets/plugins/popper.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Page Specific JS -->
+    <script src="assets/plugins/smoothscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="assets/js/highlight-custom.js"></script>
+    <script src="assets/plugins/simplelightbox/simple-lightbox.min.js"></script>
+    <script src="assets/plugins/gumshoe/gumshoe.polyfills.min.js"></script>
+    <script src="assets/js/docs.js"></script>
+  </body>
+</html>

@@ -1,0 +1,226 @@
+<div class="col-12 col-lg-4 py-3">
+					    <div class="card shadow-sm">
+						    <div class="card-body">
+							    <h5 class="card-title mb-3">
+								    <span class="theme-icon-holder card-icon-holder me-2">
+								        <i class="fas fa-cogs fa-fw"></i>
+							        </span><!--//card-icon-holder-->
+							        <span class="card-title-text">Control Structures</span>
+							    </h5>
+							    <div class="card-text">
+								    Section overview goes here. Learn about conditionals, loops, and how to control the flow of your PHP programs.
+								</div>
+							    <a class="card-link-mask" href="docs-page.html#section-4"></a>
+						    </div><!--//card-body-->
+					    </div><!--//card-->
+				    </div><!--//col-->
+				    <div class="col-12 col-lg-4 py-3">
+					    <div class="card shadow-sm">
+						    <div class="card-body">
+							    <h5 class="card-title mb-3">
+								    <span class="theme-icon-holder card-icon-holder me-2">
+								        <i class="fas fa-tools"></i>
+							        </span><!--//card-icon-holder-->
+							        <span class="card-title-text">Functions and Scope</span>
+							    </h5>
+							    <div class="card-text">
+								    Section overview goes here. Define custom functions, explore function arguments, return values, and variable scope.
+								</div>
+							    <a class="card-link-mask" href="docs-page.html#section-5"></a>
+						    </div><!--//card-body-->
+					    </div><!--//card-->
+				    </div><!--//col-->
+				    <div class="col-12 col-lg-4 py-3">
+					    <div class="card shadow-sm">
+						    <div class="card-body">
+							    <h5 class="card-title mb-3">
+								    <span class="theme-icon-holder card-icon-holder me-2">
+								        <i class="fas fa-laptop-code"></i>
+							        </span><!--//card-icon-holder-->
+							        <span class="card-title-text">Arrays and Strings</span>
+							    </h5>
+							    <div class="card-text">
+								    Section overview goes here. Work with indexed and associative arrays, string manipulation, and built-in functions.
+								</div>
+							    <a class="card-link-mask" href="docs-page.html#section-6"></a>
+						    </div><!--//card-body-->
+					    </div><!--//card-->
+				    </div><!--//col-->
+<div class="col-12 col-lg-4 py-3">
+					    <div class="card shadow-sm">
+						    <div class="card-body">
+							    <h5 class="card-title mb-3">
+								    <span class="theme-icon-holder card-icon-holder me-2">
+								        <i class="fas fa-tablet-alt"></i>
+							        </span><!--//card-icon-holder-->
+							        <span class="card-title-text">Forms and User Input</span>
+							    </h5>
+							    <div class="card-text">
+								    Section overview goes here. Capture and process data from HTML forms using GET and POST methods securely.
+								</div>
+							    <a class="card-link-mask" href="docs-page.html#section-7"></a>
+						    </div><!--//card-body-->
+					    </div><!--//card-->
+				    </div><!--//col-->
+				    <div class="col-12 col-lg-4 py-3">
+					    <div class="card shadow-sm">
+						    <div class="card-body">
+							    <h5 class="card-title mb-3">
+								    <span class="theme-icon-holder card-icon-holder me-2">
+								        <i class="fas fa-book-reader"></i>
+							        </span><!--//card-icon-holder-->
+							        <span class="card-title-text">Working with Files</span>
+							    </h5>
+							    <div class="card-text">
+								    Section overview goes here. Learn how to read, write, upload, and manage files using PHP.
+								</div>
+							    <a class="card-link-mask" href="docs-page.html#section-8"></a>
+						    </div><!--//card-body-->
+					    </div><!--//card-->
+				    </div><!--//col-->
+				    <div class="col-12 col-lg-4 py-3">
+					    <div class="card shadow-sm">
+						    <div class="card-body">
+							    <h5 class="card-title mb-3">
+								    <span class="theme-icon-holder card-icon-holder me-2">
+								        <i class="fas fa-lightbulb"></i>
+							        </span><!--//card-icon-holder-->
+							        <span class="card-title-text">Error Handling</span>
+							    </h5>
+							    <div class="card-text">
+								    Section overview goes here. Discover PHP error types, debugging techniques, and custom error handling.
+								</div>
+							    <a class="card-link-mask" href="docs-page.html#section-9"></a>
+						    </div><!--//card-body-->
+					    </div><!--//card-->
+				    </div><!--//col-->
+
+					<div class="col-12 col-lg-4 py-3">
+					    <div class="card shadow-sm">
+						    <div class="card-body">
+							    <h5 class="card-title mb-3">
+								    <span class="theme-icon-holder card-icon-holder me-2">
+								        <i class="fas fa-lightbulb"></i>
+							        </span><!--//card-icon-holder-->
+							        <span class="card-title-text">Session and Cookies</span>
+							    </h5>
+							    <div class="card-text">
+								    Section overview goes here. Manage user sessions, authentication, and persist data using cookies.
+								</div>
+							    <a class="card-link-mask" href="docs-page.html#section-9"></a>
+						    </div><!--//card-body-->
+					    </div><!--//card-->
+				    </div><!--//col-->
+
+					<div class="col-12 col-lg-4 py-3">
+					    <div class="card shadow-sm">
+						    <div class="card-body">
+							    <h5 class="card-title mb-3">
+								    <span class="theme-icon-holder card-icon-holder me-2">
+								        <i class="fas fa-lightbulb"></i>
+							        </span><!--//card-icon-holder-->
+							        <span class="card-title-text">Object-Oriented PHP</span>
+							    </h5>
+							    <div class="card-text">
+								    Section overview goes here. Dive into classes, objects, inheritance, interfaces, and OOP best practices.
+								</div>
+							    <a class="card-link-mask" href="docs-page.html#section-9"></a>
+						    </div><!--//card-body-->
+					    </div><!--//card-->
+				    </div><!--//col-->
+					<div class="col-12 col-lg-4 py-3">
+					    <div class="card shadow-sm">
+						    <div class="card-body">
+							    <h5 class="card-title mb-3">
+								    <span class="theme-icon-holder card-icon-holder me-2">
+								        <i class="fas fa-lightbulb"></i>
+							        </span><!--//card-icon-holder-->
+							        <span class="card-title-text">Database Integration</span>
+							    </h5>
+							    <div class="card-text">
+								    Section overview goes here. Connect PHP with MySQL, execute queries, and use PDO for secure access.
+								</div>
+							    <a class="card-link-mask" href="docs-page.html#section-9"></a>
+						    </div><!--//card-body-->
+					    </div><!--//card-->
+				    </div><!--//col-->
+					<div class="col-12 col-lg-4 py-3">
+					    <div class="card shadow-sm">
+						    <div class="card-body">
+							    <h5 class="card-title mb-3">
+								    <span class="theme-icon-holder card-icon-holder me-2">
+								        <i class="fas fa-lightbulb"></i>
+							        </span><!--//card-icon-holder-->
+							        <span class="card-title-text">Security Best Practices</span>
+							    </h5>
+							    <div class="card-text">
+								    Section overview goes here. Protect your web applications from SQL injection, XSS, CSRF, and other vulnerabilities.
+								</div>
+							    <a class="card-link-mask" href="docs-page.html#section-9"></a>
+						    </div><!--//card-body-->
+					    </div><!--//card-->
+				    </div><!--//col-->
+					<div class="col-12 col-lg-4 py-3">
+					    <div class="card shadow-sm">
+						    <div class="card-body">
+							    <h5 class="card-title mb-3">
+								    <span class="theme-icon-holder card-icon-holder me-2">
+								        <i class="fas fa-lightbulb"></i>
+							        </span><!--//card-icon-holder-->
+							        <span class="card-title-text">APIs and JSON</span>
+							    </h5>
+							    <div class="card-text">
+								    Section overview goes here. Learn how to consume and build RESTful APIs and handle JSON data in PHP.
+								</div>
+							    <a class="card-link-mask" href="docs-page.html#section-9"></a>
+						    </div><!--//card-body-->
+					    </div><!--//card-->
+				    </div><!--//col-->
+					<div class="col-12 col-lg-4 py-3">
+					    <div class="card shadow-sm">
+						    <div class="card-body">
+							    <h5 class="card-title mb-3">
+								    <span class="theme-icon-holder card-icon-holder me-2">
+								        <i class="fas fa-lightbulb"></i>
+							        </span><!--//card-icon-holder-->
+							        <span class="card-title-text">Routing and URL Handling</span>
+							    </h5>
+							    <div class="card-text">
+								    Section overview goes here. Create clean URLs and route traffic in your web application without frameworks.
+								</div>
+							    <a class="card-link-mask" href="docs-page.html#section-9"></a>
+						    </div><!--//card-body-->
+					    </div><!--//card-->
+				    </div><!--//col-->
+					<div class="col-12 col-lg-4 py-3">
+					    <div class="card shadow-sm">
+						    <div class="card-body">
+							    <h5 class="card-title mb-3">
+								    <span class="theme-icon-holder card-icon-holder me-2">
+								        <i class="fas fa-lightbulb"></i>
+							        </span><!--//card-icon-holder-->
+							        <span class="card-title-text">Form Validation and Sanitization</span>
+							    </h5>
+							    <div class="card-text">
+								    Section overview goes here. Validate user inputs and sanitize data to ensure secure processing.
+								</div>
+							    <a class="card-link-mask" href="docs-page.html#section-9"></a>
+						    </div><!--//card-body-->
+					    </div><!--//card-->
+				    </div><!--//col-->
+					<div class="col-12 col-lg-4 py-3">
+					    <div class="card shadow-sm">
+						    <div class="card-body">
+							    <h5 class="card-title mb-3">
+								    <span class="theme-icon-holder card-icon-holder me-2">
+								        <i class="fas fa-lightbulb"></i>
+							        </span><!--//card-icon-holder-->
+							        <span class="card-title-text">Authentication and Authorization</span>
+							    </h5>
+							    <div class="card-text">
+								    Section overview goes here. Implement login systems, manage user roles, and protect restricted pages.
+								</div>
+							    <a class="card-link-mask" href="docs-page.html#section-9"></a>
+						    </div><!--//card-body-->
+					    </div><!--//card-->
+				    </div><!--//col-->
